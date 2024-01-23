@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Edit Profile</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      body > * {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Post Malone</h1>
+    <div>
+      <label for="name"> Name:* </label>
+      <input type="text" value="Post Malone" id="name" />
+      <label for="pronouns"> Pronouns: </label>
+      <select id="select-one-option">
+        <option selected value="NONE">None</option>
+        <option value="DUM">Dummy</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="title"> Title: </label>
+      <input type="text" id="title" />
+    </div>
+
+    <h2>Contact</h2>
+    <p>
+      No registered services, you can add some on the
+      <a href="/Kanbas/Courses/Settings/screen.html">settings</a> page.
+    </p>
+    <h2>Contact</h2>
+    <p>
+      No registered services, you can add some on the
+      <a href="/Kanbas/Courses/Settings/screen.html">settings</a> page.
+    </p>
+    <h2>Biography</h2>
+    <p>Rockstar, rapper, singer, songwriter and record producer.</p>
+    <form id="textarea">
+      <textarea cols="50" rows="5">
+Rockstar, rapper, singer, songwriter and record producer.</textarea
+      >
+    </form>
+    <h2>Links</h2>
+    <ul>
+      <li>
+        <p>
+          <a href="#">YouTube</a>
+          <a href="#" style="text-decoration: none"
+            >&#x2348; Links to an external site.</a
+          >
+        </p>
+      </li>
+    </ul>
+    <table>
+      <tbody>
+        <tr>
+          <td><h3>Title</h3></td>
+          <td></td>
+          <td><h3>URL</h3></td>
+        </tr>
+        <tr>
+          <td>
+            <h3><input type="text" value="YouTube" id="name" /></h3>
+          </td>
+          <td>&rarr;</td>
+          <td>
+            <h3>
+              <input type="text" value="https://www.youtube.com/" id="name" />
+            </h3>
+          </td>
+          <td><a href="#">Remove</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <button type="button">Add another link</button>
+    </div>
+    <div>
+      <button type="button">Cancel</button>
+      <button type="button">Save Profile</button>
+    </div>
+    <div>
+      <button type="button">Edit Profile</button>
+      <button type="button">Cancel Editing</button>
+    </div>
+  </body>
+</html>
