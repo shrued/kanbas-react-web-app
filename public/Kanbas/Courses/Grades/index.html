@@ -1,0 +1,275 @@
+<html>
+  <head>
+    <title>Grades</title>
+    <style>
+      table {
+        width: 100%;
+        table-layout: fixed;
+      }
+      td:not(:first-child) {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <select id="select-one-option">
+      <option selected value="GBOOK">Gradebook</option>
+      <option value="DUM">Dummy</option>
+    </select>
+    <button type="button">Import</button>
+    <select id="select-one-option">
+      <option selected value="GBOOK">Export</option>
+      <option value="DUM">Dummy</option>
+    </select>
+    <button type="button">Configure</button>
+    <h2>Student Names</h2>
+    <input type="search" placeholder="Search Students" />
+    <h2>Assignment Names</h2>
+    <input type="search" placeholder="Search Assignments" />
+    <br />
+    <br />
+    <button type="button">Apply Filters</button>
+    <br />
+    <br />
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>A1 SETUP <br />Out of 100</th>
+          <th>A2 HTML <br />Out of 100</th>
+          <th>A3 CSS <br />Out of 100</th>
+          <th>A4 BOOTSTRAP <br />Out of 100</th>
+          <th>A5 JAVASCRIPT <br />Out of 100</th>
+          <th>A6 REACT <br />Out of 100</th>
+          <th>A7 REDUX <br />Out of 100</th>
+          <th>A8 NODE <br />Out of 100</th>
+          <th>A9 MONGO <br />Out of 100</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Harry Potter</td>
+          <td>76</td>
+          <td>87</td>
+          <td>85</td>
+          <td>76</td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>76</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Hermione Granger</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+          <td>81</td>
+          <td>60</td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>76</td>
+        </tr>
+        <tr>
+          <td>Ron Weasly</td>
+          <td>
+            <input
+              type="text"
+              value="99"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>95</td>
+          <td>76</td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>
+            <input
+              type="text"
+              value="89"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Tom Hiddleston</td>
+          <td>89</td>
+          <td>95</td>
+          <td>76</td>
+          <td>
+            <input
+              type="text"
+              value="99"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Percy Jackson</td>
+          <td>89</td>
+          <td>
+            <input
+              type="text"
+              value="92"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>76</td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>
+            <input
+              type="text"
+              value="99"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Post Malone</td>
+          <td>89</td>
+          <td>95</td>
+          <td>76</td>
+          <td>65</td>
+          <td>90</td>
+          <td>
+            <input
+              type="text"
+              value="49"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Luna Lovegood</td>
+          <td>89</td>
+          <td>95</td>
+          <td>76</td>
+          <td>
+            <input
+              type="text"
+              value="96"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Neville Longbottom</td>
+          <td>89</td>
+          <td>95</td>
+          <td>76</td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Skulduggery Pleasant</td>
+          <td>89</td>
+          <td>95</td>
+          <td>
+            <input
+              type="text"
+              value="99"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Katniss Everdeen</td>
+          <td>89</td>
+          <td>95</td>
+          <td>76</td>
+          <td>
+            <input
+              type="text"
+              value="99"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Harry Styles</td>
+          <td>89</td>
+          <td>95</td>
+          <td>
+            <input
+              type="text"
+              value="98"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>65</td>
+          <td>90</td>
+          <td>100</td>
+          <td>99</td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+        <tr>
+          <td>Minerva McGonagall</td>
+          <td>
+            <input
+              type="text"
+              value="89"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>95</td>
+          <td>
+            <input
+              type="text"
+              value="94"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>85</td>
+          <td>90</td>
+          <td>100</td>
+          <td>
+            <input
+              type="text"
+              value="99"
+              style="width: 25%; text-align: center"
+            />
+          </td>
+          <td>89</td>
+          <td>89</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>Edit</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+      }
+
+      .flex-container > * {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <select id="select-one-option">
+      <option selected value="SG">SpeedGrader</option>
+      <option value="DUM">Dummy</option>
+    </select>
+    <hr style="width: 30%; margin-left: 0" />
+
+    <h2>Assignment Name</h2>
+    <div class="flex-container">
+      <input type="text" value="A1 - ENV + HTML" />
+      <textarea cols="30" rows="10">
+I am meant to be an assignment description .   </textarea
+      >
+
+      <label for="points">Points</label>
+      <input type="text" id="points" value="100" />
+
+      <label for="select-one-option">Assignment Group</label>
+      <select id="select-one-option">
+        <option selected value="ASS">ASSIGNMENTS</option>
+        <option value="DUM">Dummy</option>
+      </select>
+
+      <label for="select-one-option">Display Grade as</label>
+      <select id="select-one-option">
+        <option selected value="PER">Percentage</option>
+        <option value="DUM">Dummy</option>
+      </select>
+
+      <label for="select-one-option">Submission Type</label>
+      <select id="select-one-option">
+        <option selected value="ONLINE">Online</option>
+        <option value="DUM">Dummy</option>
+      </select>
+
+      <p>Online Entry Options</p>
+
+      <div>
+        <input
+          type="checkbox"
+          value="TEXT"
+          name="check-genre"
+          id="chkbox-text"
+        />
+        <label for="chkbox-text">Text Entry</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="WEBSITE"
+          name="check-genre"
+          id="chkbox-website"
+        />
+        <label for="chkbox-website">Website URL</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="MEDIA"
+          name="check-genre"
+          id="chkbox-media"
+        />
+        <label for="chkbox-media">Media Recordings</label>
+      </div>
+      <div>
+        <input type="checkbox" value="ANN" name="check-genre" id="chkbox-ann" />
+        <label for="chkbox-ann">Student Annotation</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="FILE"
+          name="check-genre"
+          id="chkbox-file"
+        />
+        <label for="chkbox-file">File Uploads</label>
+      </div>
+
+      <label for="assign">
+        Assign <br />
+        Assign to
+      </label>
+      <input type="text" id="assign" value="Everyone" />
+
+      <label for="due"> Due </label>
+      <input type="date" id="due" value="2021-01-01" />
+
+      <label for="due"> Available From </label>
+      <input type="date" id="due" value="2021-01-01" />
+
+      <label for="due"> Until </label>
+      <input type="date" id="due" value="2021-01-01" />
+
+      <div>
+        <button type="button">Cancel</button>
+        <button type="button">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
