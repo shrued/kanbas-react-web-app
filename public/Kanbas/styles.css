@@ -172,8 +172,9 @@ hr {
 }
 
 .grey-text {
-  color: rgb(156, 154, 154);
+  color: rgb(129, 129, 129);
   margin-left: 1.6em;
+  font-size: 14px;
 }
 
 .float-right {
