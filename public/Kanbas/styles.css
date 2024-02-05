@@ -17,6 +17,12 @@ hr {
   padding: 0;
 }
 
+@media screen and (max-width: 800px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
 .top-container {
   display: flex;
   justify-content: space-between;

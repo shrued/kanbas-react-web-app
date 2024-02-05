@@ -83,6 +83,46 @@
   align-items: center;
 }
 
+.navbar {
+  display: none;
+  background-color: black;
+  padding: 2em;
+  color: white;
+}
+
+.navbar-res {
+  display: flex;
+}
+
+.navbar-center {
+  text-align: center;
+}
+
+@media screen and (max-width: 1700px) {
+  .course-status {
+    display: none;
+  }
+
+  .course-modules {
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .kanbas-navigation,
+  .account-navigation,
+  .top-container,
+  .hr-none {
+    display: none;
+  }
+
+  .course-modules {
+  }
+
+  .navbar {
+    display: flex;
+  }
+}
+
 .buttons-flex {
   display: flex;
   width: 100%;
@@ -137,4 +177,26 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.grey-box {
+  border: 3px solid #c7cdd1;
+  max-width: 900px;
+  padding: 1em !important;
+}
+
+.red-links {
+  list-style: none;
+  color: rgb(212, 20, 20);
+}
+
+.red-links li a {
+  text-decoration: none;
+  color: rgb(212, 20, 20);
+  cursor: pointer;
+}
+
+.red-links li a:hover {
+  color: rgb(212, 20, 20);
+  opacity: 0.8;
 }
