@@ -182,19 +182,3 @@
   max-width: 900px;
   padding: 1em !important;
 }
-
-.red-links {
-  list-style: none;
-  color: rgb(212, 20, 20);
-}
-
-.red-links li a {
-  text-decoration: none;
-  color: rgb(212, 20, 20);
-  cursor: pointer;
-}
-
-.red-links li a:hover {
-  color: rgb(212, 20, 20);
-  opacity: 0.8;
-}

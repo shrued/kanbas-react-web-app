@@ -183,3 +183,20 @@ hr {
   margin-right: 6px;
   padding: 10px 0;
 }
+
+.red-links {
+  list-style: none;
+  color: rgb(212, 20, 20);
+  cursor: pointer;
+}
+
+.red-links li a {
+  text-decoration: none;
+  color: rgb(212, 20, 20);
+  cursor: pointer;
+}
+
+.red-links li a:hover {
+  color: rgb(212, 20, 20);
+  opacity: 0.8;
+}
