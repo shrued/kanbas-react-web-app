@@ -1,5 +1,23 @@
 <html>
   <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Kanbas/styles.css" />
+    <link
+      rel="stylesheet"
+      href="/Kanbas/Courses/Settings/Navigation/index.css"
+    />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
     <title>Navigation Settings</title>
     <style>
       table {
@@ -41,254 +59,258 @@
     </style>
   </head>
   <body>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <ul>
-              <li>
-                <a href="/Kanbas/Account/Profile/screen.html"> Account</a>
-              </li>
-              <li>
-                <a href="#">Dashboard</a>
-              </li>
-              <li>
-                <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-              </li>
-              <li>
-                <a href="#">Calendar</a>
-              </li>
-              <li><a href="#">Inbox</a></li>
-              <li><a href="#">History</a></li>
-              <li><a href="#">Studio</a></li>
-              <li><a href="#">Commons</a></li>
-              <li><a href="#">Help</a></li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li>
-                <a href="/Kanbas/Courses/Home/screen.html"> Home</a>
-              </li>
-              <li>
-                <a href="#"> Modules</a>
-              </li>
-              <li><a href="#"> Piazza</a></li>
-              <li>
-                <a href="#"> Zoom Meetings</a>
-              </li>
-              <li>
-                <a href="/Kanbas/Courses/Assignments/screen.html">
-                  Assignments</a
-                >
-              </li>
-              <li>
-                <a href="#"> Quizzes</a>
-              </li>
-              <li><a href="/Kanbas/Courses/Grades/screen.html"> Grades</a></li>
-              <li><a href="#"> People</a></li>
-              <li>
-                <a href="#"> Panopto Video</a>
-              </li>
-              <li>
-                <a href="#"> Discussions</a>
-              </li>
-              <li>
-                <a href="#"> Announcements</a>
-              </li>
-              <li><a href="#"> Pages</a></li>
-              <li><a href="#"> Files</a></li>
-              <li>
-                <a href="#"> Rubrics</a>
-              </li>
-              <li>
-                <a href="#"> Outcomes</a>
-              </li>
-              <li>
-                <a href="#"> Collaborations</a>
-              </li>
-              <li>
-                <a href="#"> Syllabus</a>
-              </li>
-              <li>
-                <a href="/Kanbas/Courses/Settings/screen.html"> Settings</a>
-              </li>
-            </ul>
-          </td>
-          <td>
-            <div>
-              <a href="/Kanbas/Courses/Settings/screen.html">Course Details</a>
-              <a href="#">Sections</a>
-              <a href="/Kanbas/Courses/Settings/Navigation/screen.html"
-                >Navigation</a
-              >
-              <a href="#">Apps</a>
-              <a href="#">Feature Options</a>
-              <a href="#">Integrations</a>
-            </div>
-            <p>Drag and drop items.</p>
-            <table border="1" width="100%">
-              <tbody>
-                <tr>
-                  <td>Home</td>
-                </tr>
-                <tr>
-                  <td>Modules</td>
-                </tr>
-                <tr>
-                  <td>Piazza</td>
-                </tr>
-                <tr>
-                  <td>Zoom Meetings</td>
-                </tr>
-                <tr>
-                  <td>Assignments</td>
-                </tr>
-                <tr>
-                  <td>Quizzes</td>
-                </tr>
-                <tr>
-                  <td>Grades</td>
-                </tr>
-                <tr>
-                  <td>People</td>
-                </tr>
-                <tr>
-                  <td>Panopto Video</td>
-                </tr>
-              </tbody>
-            </table>
-            <p>
-              Drag items here to hide them from students.
-              <br />
-              <small
-                >Disabling most pages will cause students who visit those pages
-                to be redirected to the course home page.
-              </small>
-            </p>
-            <table border="1" width="100%">
-              <tbody>
-                <tr>
-                  <td>
-                    Chat
-                    <br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    SCORM<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+    <div class="container">
+      <div>
+        <ul class="wd-kanbas-navigation">
+          <li>
+            <a href="http://northeastern.edu"
+              ><img class="logo_image" src="/images/NEULogo.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="navigation-icons"
+              href="/Kanbas/Account/Profile/screen.html"
+              ><i class="fa fa-user-circle account-icon"></i> Account</a
+            >
+          </li>
+          <li class="wd-active">
+            <a class="navigation-icons" href="/Kanbas/Dashboard/index.html"
+              ><i class="fa fa-tachometer"></i>Dashboard</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="/Kanbas/Courses/Home/screen.html"
+              ><i class="fa fa-book"></i> Courses</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="#"
+              ><i class="fa fa-calendar"></i>Calendar</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="#"
+              ><i class="fa fa-inbox"></i>Inbox</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="#"
+              ><i class="fa fa-history"></i>History</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="#"
+              ><i class="fa fa-desktop"></i>Studio</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="#"
+              ><i class="fa fa-arrow-circle-right"></i>Commons</a
+            >
+          </li>
+          <li>
+            <a class="navigation-icons" href="#"
+              ><i class="fa fa-question-circle-o"></i>Help</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="wd-navigation">
+          <li>
+            <a href="#"> Notifications</a>
+          </li>
+          <li class="wd-active">
+            <a href="/Kanbas/Account/Profile/screen.html">Profile</a>
+          </li>
+          <li>
+            <a href="/Kanbas/Courses/Home/screen.html">Files</a>
+          </li>
+          <li>
+            <a href="/Kanbas/Courses/Settings/screen.html">Settings</a>
+          </li>
+          <li><a href="#">ePortfolios</a></li>
+          <li><a href="#">Shared Content</a></li>
+          <li><a href="#">The Hub</a></li>
+          <li>
+            <a href="#">Qwickly Course Tools</a>
+          </li>
+          <li>
+            <a href="#">Global Announcements</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div>
+          <a href="/Kanbas/Courses/Settings/screen.html">Course Details</a>
+          <a href="#">Sections</a>
+          <a href="/Kanbas/Courses/Settings/Navigation/screen.html"
+            >Navigation</a
+          >
+          <a href="#">Apps</a>
+          <a href="#">Feature Options</a>
+          <a href="#">Integrations</a>
+        </div>
+        <p>Drag and drop items.</p>
+        <table border="1" width="100%">
+          <tbody>
+            <tr>
+              <td>Home</td>
+            </tr>
+            <tr>
+              <td>Modules</td>
+            </tr>
+            <tr>
+              <td>Piazza</td>
+            </tr>
+            <tr>
+              <td>Zoom Meetings</td>
+            </tr>
+            <tr>
+              <td>Assignments</td>
+            </tr>
+            <tr>
+              <td>Quizzes</td>
+            </tr>
+            <tr>
+              <td>Grades</td>
+            </tr>
+            <tr>
+              <td>People</td>
+            </tr>
+            <tr>
+              <td>Panopto Video</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Drag items here to hide them from students.
+          <br />
+          <small
+            >Disabling most pages will cause students who visit those pages to
+            be redirected to the course home page.
+          </small>
+        </p>
+        <table border="1" width="100%">
+          <tbody>
+            <tr>
+              <td>
+                Chat
+                <br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                SCORM<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Attendance<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Attendance<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Barnes and Noble Bookstore<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Barnes and Noble Bookstore<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Digication<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Digication<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Top Hat<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Top Hat<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Syllabus<br />
-                    <small
-                      >Page disabled, will redirect to course home page</small
-                    >
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Syllabus<br />
+                <small>Page disabled, will redirect to course home page</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Perusall<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Perusall<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Microsoft Teams Meetings<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Microsoft Teams Meetings<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    FACT Reporting and Photo Roster<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                FACT Reporting and Photo Roster<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Progress Reports (Navigate)<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Progress Reports (Navigate)<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Microsoft Teams for Canvas<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Microsoft Teams for Canvas<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    VHL Central<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                VHL Central<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Gradescope 1.3<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Gradescope 1.3<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    Credentials<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
+            <tr>
+              <td>
+                Credentials<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
 
-                <tr>
-                  <td>
-                    iClicker<br />
-                    <small>Page disabled, won't appear in navigation</small>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div style="padding-top: 10px">
-              <button style="background-color: rgb(194, 24, 24)">Save</button>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+            <tr>
+              <td>
+                iClicker<br />
+                <small>Page disabled, won't appear in navigation</small>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="padding-top: 10px">
+          <button style="background-color: rgb(194, 24, 24)">Save</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

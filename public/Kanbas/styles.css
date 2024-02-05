@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border-color: rgb(152, 152, 152);
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.account-navigation {
+  min-width: 20%;
+}
+
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+  height: 100%;
+}
+
+.wd-kanbas-navigation li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+  color: rgb(212, 20, 20);
+}
+
+.wd-kanbas-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.wd-kanbas-navigation a i {
+  color: rgb(212, 20, 20);
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.logo_image {
+  width: 100%;
+}
+
+.account-icon {
+  color: white !important;
+}
+
+.navigation-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-navigation {
+  width: 100%;
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.wd-navigation li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wd-navigation li.wd-active {
+  border-left: 2px solid black;
+}
+.wd-navigation li.wd-active a {
+  color: black;
+}
+.wd-navigation a {
+  color: rgb(212, 20, 20);
+  text-decoration: none;
+}
+
+.section-title {
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.plain-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.plain-link:hover {
+  color: inherit;
+}
+
+.grey-button {
+  background-color: #f5f5f5;
+  color: #3d454c;
+  margin: 0;
+  padding: 0.7em;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #c7cdd1;
+  line-height: normal !important;
+  font-family: Arial, Helvetica, sans-serif, "Font Awesome 5 Free";
+}
+
+.red-button {
+  background-color: rgb(212, 20, 20);
+  color: white;
+  margin: 0;
+  padding: 0.7em;
+  border: none;
+  cursor: pointer;
+  border: 1px solid rgb(212, 20, 20);
+  line-height: normal !important;
+}
+
+.grey-text {
+  color: rgb(156, 154, 154);
+  margin-left: 1.6em;
+}
