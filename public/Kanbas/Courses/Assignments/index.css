@@ -49,6 +49,8 @@
 .module-title {
   text-transform: uppercase;
   margin-left: 0.8em;
+  text-decoration: none;
+  color: inherit;
 }
 
 .week-title {
