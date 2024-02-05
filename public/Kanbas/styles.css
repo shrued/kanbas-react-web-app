@@ -1,3 +1,6 @@
+/* green: rgb(64, 151, 64) */
+/* red: rgb(212, 20, 20) */
+
 body {
   margin: 0;
   padding: 0;
@@ -15,12 +18,6 @@ hr {
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 800px) {
-  .main-container {
-    flex-direction: column;
-  }
 }
 
 .top-container {
@@ -151,6 +148,7 @@ hr {
 
 .grey-button {
   background-color: #f5f5f5;
+  border-radius: 5px;
   color: #3d454c;
   margin: 0;
   padding: 0.7em;
@@ -163,6 +161,7 @@ hr {
 
 .red-button {
   background-color: rgb(212, 20, 20);
+  border-radius: 5px;
   color: white;
   margin: 0;
   padding: 0.7em;
@@ -175,4 +174,12 @@ hr {
 .grey-text {
   color: rgb(156, 154, 154);
   margin-left: 1.6em;
+}
+
+.float-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 6px;
+  padding: 10px 0;
 }

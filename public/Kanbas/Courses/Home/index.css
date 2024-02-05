@@ -66,14 +66,6 @@
   opacity: 0.8;
 }
 
-.float-right {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-right: 6px;
-  padding: 10px 0;
-}
-
 .course-status {
   display: flex;
   flex-direction: column;
@@ -120,6 +112,12 @@
 
   .navbar {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-container {
+    flex-direction: column;
   }
 }
 

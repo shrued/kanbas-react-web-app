@@ -1,0 +1,58 @@
+.edit-assignment-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  margin-left: 3em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.published-button {
+  color: rgb(64, 151, 64);
+  background-color: transparent;
+  margin: 0;
+  padding: 0.7em;
+  border: none;
+  cursor: pointer;
+  border: none;
+  line-height: normal !important;
+}
+
+.edit-assignment-container input,
+.edit-assignment-container select,
+.edit-assignment-container textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.edit-assignment-container select {
+  width: 40%;
+}
+
+.edit-assignment-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.assign-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
