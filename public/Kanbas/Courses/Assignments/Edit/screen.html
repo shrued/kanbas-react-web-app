@@ -226,12 +226,17 @@ I am meant to be an assignment description .   </textarea
               >
 
               <div class="subcontainer">
-                <div class="d-flex pt-3">
+                <div class="d-flex justify-content-end pt-3">
                   <label for="points" style="padding-right: 1em">Points</label>
-                  <input type="text" id="points" value="100" />
+                  <input
+                    type="text"
+                    id="points"
+                    value="100"
+                    style="width: 40%"
+                  />
                 </div>
 
-                <div class="d-flex pt-3">
+                <div class="d-flex justify-content-end pt-3">
                   <label for="select-one-option" style="padding-right: 1em"
                     >Assignment Group</label
                   >
@@ -241,7 +246,7 @@ I am meant to be an assignment description .   </textarea
                   </select>
                 </div>
 
-                <div class="d-flex pt-3">
+                <div class="d-flex justify-content-end pt-3">
                   <label for="select-one-option" style="padding-right: 1em"
                     >Display Grade as</label
                   >
@@ -251,19 +256,28 @@ I am meant to be an assignment description .   </textarea
                   </select>
                 </div>
 
-                <div class="">
-                  <input
-                    type="checkbox"
-                    value="TEXT"
-                    name="check-genre"
-                    id="chkbox-text"
-                  />
-                  &nbsp;
-                  <label for="chkbox-text">
-                    Do not count this assignment towards the final grade</label
+                <div class="d-flex justify-content-end">
+                  <label></label>
+                  <div
+                    style="
+                      vertical-align: middle !important;
+                      text-align: left !important;
+                      margin-left: -34px;
+                    "
                   >
+                    <input
+                      type="checkbox"
+                      value="TEXT"
+                      name="check-genre"
+                      id="chkbox-text"
+                    />
+                    <label for="chkbox-text">
+                      Do not count this assignment towards the final grade
+                    </label>
+                  </div>
                 </div>
-                <div class="d-flex pt-3">
+
+                <div class="d-flex justify-content-end pt-3">
                   <p style="padding-right: 1em">Assign</p>
                   <div class="assign-container">
                     <label for="assign"> Assign to </label>
