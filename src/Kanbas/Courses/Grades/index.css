@@ -1,0 +1,30 @@
+.slide-links {
+  text-decoration: none;
+  color: #b12525;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+}
+
+.slide-links:hover {
+  color: #b12525;
+  opacity: 0.8;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #ddd;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}

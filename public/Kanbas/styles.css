@@ -1,5 +1,5 @@
 /* green: rgb(64, 151, 64) */
-/* red: rgb(212, 20, 20) */
+/* red: #b12525 */
 
 body {
   margin: 0;
@@ -72,7 +72,7 @@ hr {
 }
 
 .wd-kanbas-navigation li.wd-active a {
-  color: rgb(212, 20, 20);
+  color: #b12525;
 }
 
 .wd-kanbas-navigation a {
@@ -81,7 +81,7 @@ hr {
 }
 
 .wd-kanbas-navigation a i {
-  color: rgb(212, 20, 20);
+  color: #b12525;
   font-size: 2em;
   margin-bottom: 5px;
 }
@@ -122,7 +122,7 @@ hr {
   color: black;
 }
 .wd-navigation a {
-  color: rgb(212, 20, 20);
+  color: #b12525;
   text-decoration: none;
 }
 
@@ -160,14 +160,14 @@ hr {
 }
 
 .red-button {
-  background-color: rgb(212, 20, 20);
+  background-color: #b12525;
   border-radius: 5px;
   color: white;
   margin: 0;
   padding: 0.7em;
   border: none;
   cursor: pointer;
-  border: 1px solid rgb(212, 20, 20);
+  border: 1px solid #b12525;
   line-height: normal !important;
 }
 
@@ -187,17 +187,17 @@ hr {
 
 .red-links {
   list-style: none;
-  color: rgb(212, 20, 20);
+  color: #b12525;
   cursor: pointer;
 }
 
 .red-links li a {
   text-decoration: none;
-  color: rgb(212, 20, 20);
+  color: #b12525;
   cursor: pointer;
 }
 
 .red-links li a:hover {
-  color: rgb(212, 20, 20);
+  color: #b12525;
   opacity: 0.8;
 }

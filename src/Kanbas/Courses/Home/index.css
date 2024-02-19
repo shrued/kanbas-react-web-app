@@ -1,0 +1,65 @@
+.opaque-green-button {
+  background-color: rgb(20, 158, 20);
+  color: white;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0.7em;
+  border: none;
+  cursor: pointer;
+  border: 1px solid rgba(20, 158, 20, 0.7);
+  line-height: normal !important;
+}
+
+.slide-links {
+  text-decoration: none;
+  color: #b12525;
+  cursor: pointer;
+}
+
+.slide-links:hover {
+  color: #b12525;
+  opacity: 0.8;
+}
+
+.course-status-title {
+  font-size: 22px;
+  color: #3d454c;
+}
+
+.grey-text {
+  color: rgb(129, 129, 129);
+  margin-left: 1.6em;
+  font-size: 14px;
+}
+
+.lecture-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.buttons-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-action-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.course-action-buttons ul {
+  padding: 0;
+  margin: 0;
+}
+
+.course-status {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-left: 1em;
+  align-items: center;
+}

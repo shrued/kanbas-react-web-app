@@ -1,0 +1,16 @@
+.custom-badge {
+  border: 1px solid #343a40;
+  background-color: transparent;
+  color: #343a40;
+  padding: 0.2em;
+  border-radius: 10rem;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.module-title {
+  text-transform: uppercase;
+  margin-left: 0.8em;
+  text-decoration: none;
+  color: inherit;
+}

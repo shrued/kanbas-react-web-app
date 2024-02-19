@@ -59,12 +59,12 @@
 
 .slide-links {
   text-decoration: none;
-  color: rgb(212, 20, 20);
+  color: #b12525;
   cursor: pointer;
 }
 
 .slide-links:hover {
-  color: rgb(212, 20, 20);
+  color: #b12525;
   opacity: 0.8;
 }
 
