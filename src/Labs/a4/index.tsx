@@ -1,3 +1,4 @@
+import TodoList from "../a3/todos/TodoList";
 import ArrayStateVariable from "./ArrayStateVariable";
 import BooleanStateVariables from "./BooleanStateVariables";
 import ClickEvent from "./ClickEvent";
@@ -31,6 +32,7 @@ function Assignment4() {
       <ArrayStateVariable />
       <ParentStateComponent />
       <ReduxExamples />
+      <TodoList />
     </div>
   );
 }
