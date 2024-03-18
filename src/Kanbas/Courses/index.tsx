@@ -1,4 +1,3 @@
-import { courses } from "../../Kanbas/Database";
 import {
   Navigate,
   Route,
@@ -16,7 +15,7 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/Editor";
 import Grades from "./Grades";
 
-function Courses() {
+function Courses({ courses }: { courses: any[] }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
 

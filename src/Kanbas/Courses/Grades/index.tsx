@@ -6,14 +6,18 @@ import {
   FaFilter,
   FaKeyboard,
 } from "react-icons/fa";
-import { assignments, enrollments, grades, users } from "../../Database";
+import db from "../../Database";
 import { useParams } from "react-router-dom";
 import "./index.css";
 
 function Grades() {
   const { courseId } = useParams();
-  const as = assignments.filter((assignment) => assignment.course === courseId);
-  const es = enrollments.filter((enrollment) => enrollment.course === courseId);
+  const as = db.assignments.filter(
+    (assignment) => assignment.course === courseId
+  );
+  const es = db.enrollments.filter(
+    (enrollment) => enrollment.course === courseId
+  );
   return (
     <div className="m-3">
       <div className="d-flex justify-content-between">
@@ -95,16 +99,18 @@ function Grades() {
           </thead>
           <tbody>
             {es.map((enrollment, index) => {
-              const user = users.find((user) => user._id === enrollment.user);
+              const user = db.users.find(
+                (user) => user._id === enrollment.user
+              );
               return (
                 <tr>
                   <td style={{ color: "#b12525" }}>
                     {user?.firstName} {user?.lastName}
                   </td>
-                  {assignments
+                  {db.assignments
                     .filter((assignment) => assignment.course === courseId)
                     .map((assignment) => {
-                      const grade = grades.find(
+                      const grade = db.grades.find(
                         (grade) =>
                           grade.student === enrollment.user &&
                           grade.assignment === assignment._id
