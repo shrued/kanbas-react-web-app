@@ -51,7 +51,7 @@ function ModuleList() {
           <FaEllipsisV />
         </button>
       </div>
-      <ul className="list-group wd-moduless">
+      <ul className="list-group wd-modules">
         <li className="list-group-item">
           <input
             value={module.name}
@@ -90,7 +90,7 @@ function ModuleList() {
           .map((module, index) => (
             <li
               key={index}
-              className="list-group-item"
+              className="list-group-item p-2"
               onClick={() => setSelectedModule(module._id)}
             >
               <button
