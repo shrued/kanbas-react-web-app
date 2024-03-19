@@ -72,13 +72,13 @@ function ModuleList() {
               onClick={() =>
                 dispatch(addModule({ ...module, course: courseId }))
               }
-              className="btn btn-success m-1"
+              className="red-button m-1"
             >
               Add
             </button>
             <button
               onClick={() => dispatch(updateModule(module))}
-              className="btn btn-primary m-1"
+              className="grey-button m-1"
             >
               Update
             </button>
@@ -95,13 +95,13 @@ function ModuleList() {
             >
               <button
                 onClick={() => dispatch(setModule(module))}
-                className="btn btn-warning mx-1"
+                className="grey-button mx-1"
               >
                 Edit
               </button>
               <button
                 onClick={() => dispatch(deleteModule(module._id))}
-                className="btn btn-danger mx-1"
+                className="red-button mx-1"
               >
                 Delete
               </button>
